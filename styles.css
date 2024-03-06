@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border:border-box;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+
+
+.header{
+    height: 400px;
+    width: 100%;
+    background-color: #1F2937;
+    
+}
+
+.textHeaderLeft{
+    color: #F9FAF8;
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.textHeaderRight ul{
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.header-text{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.textHeaderRight ul li a {
+    color: #E5E7EB;
+    text-decoration: none;
+    transition: all 0.3s ease;
+   
+}
+
+.textHeaderRight ul li a:hover{
+    transform: scale(1.05);
+    letter-spacing: 2px;
+    color:rgb(216, 213, 213);
+}
+
+.textHeaderRight ul li{
+    list-style-type: none;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content-Image img{
+    height: 220px;
+    width: 240px;
+    margin-top: 25px;
+    transition: all 0.3s ease;
+}
+.content-Image img:hover{
+    transform: scale(1.05);
+}
+
+.content-Text{
+    width: 20%;
+    margin-top: 65px;
+}
+
+.content-Text h1{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    text-align: center;
+}
+
+.content-Text p{
+    font-size: 18px;
+    color: #E5E7EB;
+    text-align: center;
+}
+
+.content-Text button{
+    width: 100px;
+    height: 40px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 115px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 120px;
+    transition: all 0.3s ease;
+}
+
+.content-Text button:hover{
+    transform: scale(1.05);
+}
+
+.content-Text button:hover{
+    background-color:#5f93e7;
+}
+
+/* Styling for main section */
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+}
+
+.main-text h2{
+    font-size: 56px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.main-image-content{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.main-image-content .box{
+    border: 1px solid black;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: none;
+    border-radius: 50%;
+    background-color: #eaece6;
+    transition: all 0.3s ease;
+}
+
+.box:hover{
+    transform: scale(1.05);
+    box-shadow: 5px 5px 25px black ;
+}
+
+.box .fa-solid{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.box .fa-brands{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.box p{
+    font-size: 25px;
+}
+
+.quotes{
+    background-color: #E5E7EB;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quote-upper p{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.quote-lower p{
+    font-size: 25px;
+    margin-top: 20px;
+    
+}
+
+.call-to-action{
+    width: 100%;
+    height: 300px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-call{
+    width: 70%;
+    height: 160px;
+    background-color: #3882F6;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-weight: lighter;
+    transition: all 0.3s ease;
+
+}
+.card-call:hover{
+    transform: scale(1.05);
+}
+
+.right-button button{
+    width: 100px;
+    height: 40px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border-radius: 115px;
+    margin-top: 10px;
+    font-size: 20px;
+    margin-left: 120px;
+    transition: all 0.3s ease;
+    border: 1px solid #E5E7EB;
+}
+
+.right-button button:hover{
+    transform: scale(1.05);
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.footer p{
+    color: #E5E7EB;
+    font-size: 20px;
+}
